@@ -1,0 +1,29 @@
+{
+	"name": "@dapp/contracts",
+	"private": true,
+	"version": "0.0.1",
+	"license": "MIT",
+	"author": "Ted Meftah <https://tedmeftah.com>",
+	"scripts": {
+		"build": "hardhat compile",
+		"lint": "prettier --ignore-path .gitignore --check . && eslint .",
+		"format": "prettier --ignore-path .gitignore --write ."
+	},
+	"devDependencies": {
+		"@nomiclabs/hardhat-ethers": "^2.0.3",
+		"@nomiclabs/hardhat-waffle": "^2.0.1",
+		"@typescript-eslint/eslint-plugin": "^5.7.0",
+		"@typescript-eslint/parser": "^5.7.0",
+		"chai": "^4.3.4",
+		"eslint": "^8.5.0",
+		"eslint-config-prettier": "^8.3.0",
+		"ethereum-waffle": "^3.4.0",
+		"ethers": "^5.5.2",
+		"hardhat": "^2.8.0",
+		"prettier": "^2.5.1",
+		"ts-node": "^10.4.0"
+	},
+	"dependencies": {
+		"typescript": "^4.5.4"
+	}
+}

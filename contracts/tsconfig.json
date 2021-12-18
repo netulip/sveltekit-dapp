@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "Node",
+		"target": "ES2021",
+		"importsNotUsedAsValues": "error",
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"baseUrl": ".",
+		"allowJs": true,
+		"checkJs": true,
+		"resolveJsonModule": true
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"name": "@dapp/frontend",
+	"private": true,
+	"version": "0.0.1",
+	"license": "MIT",
+	"author": "Ted Meftah <https://tedmeftah.com>",
+	"type": "module",
+	"scripts": {
+		"dev": "set NODE_ENV=development && svelte-kit dev",
+		"build": "set NODE_ENV=production && svelte-kit build",
+		"preview": "set NODE_ENV=production && svelte-kit preview",
+		"lint": "prettier --ignore-path .gitignore --check . && eslint .",
+		"format": "prettier --ignore-path .gitignore --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-static": "next",
+		"@sveltejs/kit": "next",
+		"@typescript-eslint/eslint-plugin": "^5.7.0",
+		"@typescript-eslint/parser": "^5.7.0",
+		"eslint": "^8.5.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-svelte3": "^3.2.1",
+		"postcss-noop": "^1.0.1",
+		"prettier": "~2.5.1",
+		"prettier-plugin-svelte": "^2.5.1",
+		"svelte": "^3.44.3",
+		"svelte-preprocess": "^4.10.1",
+		"tslib": "^2.3.1",
+		"typescript": "^4.5.4",
+		"vite": "^2.7.3",
+		"vite-imagetools": "^4.0.2",
+		"vite-plugin-windicss": "^1.5.4",
+		"windicss": "^3.4.0"
+	},
+	"dependencies": {
+		"ethers": "^5.5.2"
+	}
+}
