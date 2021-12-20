@@ -6,7 +6,7 @@
 	"author": "Ted Meftah <https://tedmeftah.com>",
 	"scripts": {
 		"build": "hardhat compile",
-		"lint": "solhint 'contracts/**/*.sol'",
+		"lint": "eslint . && solhint **/*.sol",
 		"format": "prettier --ignore-path .gitignore --write ."
 	},
 	"devDependencies": {
