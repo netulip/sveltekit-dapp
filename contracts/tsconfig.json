@@ -11,7 +11,7 @@
 		"allowJs": true,
 		"checkJs": true,
 		"resolveJsonModule": true,
-		"typeRoots": ["./typechain", "./node_modules/@types"],
+		"typeRoots": ["./types", "./node_modules/@types"],
 		"types": ["@nomiclabs/hardhat-ethers", "@nomiclabs/hardhat-waffle"]
 	},
 	"include": ["./test", "./scripts"],
