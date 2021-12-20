@@ -12,6 +12,8 @@
 	"devDependencies": {
 		"@nomiclabs/hardhat-ethers": "^2.0.3",
 		"@nomiclabs/hardhat-waffle": "^2.0.1",
+		"@typechain/ethers-v5": "^8.0.5",
+		"@typechain/hardhat": "^3.0.0",
 		"@typescript-eslint/eslint-plugin": "^5.7.0",
 		"@typescript-eslint/parser": "^5.7.0",
 		"chai": "^4.3.4",
@@ -21,7 +23,9 @@
 		"ethers": "^5.5.2",
 		"hardhat": "^2.8.0",
 		"prettier": "^2.5.1",
-		"ts-node": "^10.4.0"
+		"prettier-plugin-solidity": "^1.0.0-beta.19",
+		"ts-node": "^10.4.0",
+		"typechain": "^6.0.5"
 	},
 	"dependencies": {
 		"typescript": "^4.5.4"
