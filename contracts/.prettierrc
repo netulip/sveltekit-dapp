@@ -4,5 +4,17 @@
 	"useTabs": true,
 	"singleQuote": true,
 	"trailingComma": "none",
-	"printWidth": 90
+	"printWidth": 90,
+	"overrides": [
+		{
+			"files": "*.sol",
+			"options": {
+				"printWidth": 120,
+				"tabWidth": 4,
+				"singleQuote": false,
+				"explicitTypes": "always"
+			}
+		}
+	],
+	"plugins": ["prettier-plugin-solidity"]
 }

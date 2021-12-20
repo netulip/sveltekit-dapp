@@ -8,6 +8,6 @@ export default {
 	},
 	networks: {},
 	typechain: {
-		outDir: 'types',
-	},
+		outDir: 'types'
+	}
 }
