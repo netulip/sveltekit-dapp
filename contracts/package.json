@@ -6,7 +6,7 @@
 	"author": "Ted Meftah <https://tedmeftah.com>",
 	"scripts": {
 		"build": "hardhat compile",
-		"lint": "prettier --ignore-path .gitignore --check . && eslint .",
+		"lint": "solhint 'contracts/**/*.sol'",
 		"format": "prettier --ignore-path .gitignore --write ."
 	},
 	"devDependencies": {
@@ -24,6 +24,8 @@
 		"hardhat": "^2.8.0",
 		"prettier": "^2.5.1",
 		"prettier-plugin-solidity": "^1.0.0-beta.19",
+		"solhint": "^3.3.6",
+		"solhint-plugin-prettier": "^0.0.5",
 		"ts-node": "^10.4.0",
 		"typechain": "^6.0.5"
 	},
