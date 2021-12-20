@@ -10,6 +10,10 @@
 		"baseUrl": ".",
 		"allowJs": true,
 		"checkJs": true,
-		"resolveJsonModule": true
-	}
+		"resolveJsonModule": true,
+		"typeRoots": ["./typechain", "./node_modules/@types"],
+		"types": ["@nomiclabs/hardhat-ethers", "@nomiclabs/hardhat-waffle"]
+	},
+	"include": ["./test", "./scripts"],
+	"files": ["./hardhat.config.ts"]
 }
