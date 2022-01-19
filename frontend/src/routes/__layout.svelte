@@ -6,7 +6,7 @@
 	<slot />
 </main>
 
-<style lang="postcss">
+<style lang="scss">
 	:global(:root, body) {
 		@apply h-full overflow-hidden;
 	}
