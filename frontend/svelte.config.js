@@ -13,6 +13,7 @@ export default {
 	],
 
 	kit: {
+		target: '#app',
 		adapter: adapter(),
 		vite: {
 			resolve: {

@@ -2,15 +2,6 @@
 	import '@/styles'
 </script>
 
-<main>
+<article role="application">
 	<slot />
-</main>
-
-<style lang="scss">
-	:global(:root, body) {
-		@apply h-full overflow-hidden;
-	}
-	main {
-		@apply flex flex-col h-full items-center justify-center;
-	}
-</style>
+</article>
